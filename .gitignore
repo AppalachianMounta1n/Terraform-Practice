@@ -1,0 +1,23 @@
+#Terraform states, builds, and locks for Build
+/Docker/Build/terraform.tfstate
+/Docker/Build/.terraform.lock.hcl
+/Docker/Build/.terraform/*
+/Docker/Build/terraform.tfstate.backup
+
+#Terraform states, builds, and locks for Change
+/Docker/Change/terraform.tfstate
+/Docker/Change/.terraform.lock.hcl
+/Docker/Change/.terraform/*
+/Docker/Change/terraform.tfstate.backup
+
+#Terraform states, builds, and locks for Variables
+/Docker/Variables/terraform.tfstate
+/Docker/Variables/.terraform.lock.hcl
+/Variables/.terraform/*
+/Variables/terraform.tfstate.backup
+
+#Terraform states, builds, and locks for Outputs
+/Docker/Outputs/terraform.tfstate
+/Docker/Outputs/.terraform.lock.hcl
+/Docker/Outputs/.terraform/*
+/Docker/Outputs/terraform.tfstate.backup
