@@ -1,3 +1,4 @@
-## Source
+## Sources
 ---
-- For this section I will be using FreeCodeCamp's [YouTube Video](https://www.youtube.com/watch?v=SPcwo0Gq9T8) on Terraform and preparing for the Terraform Associate 003 Exam
+- For this section I will be using FreeCodeCamp's [YouTube Video](https://www.youtube.com/watch?v=SPcwo0Gq9T8) on Terraform and preparing for the Terraform Associate 004 Exam
+- I will also be using the blog posts  from FreeCodeCamp, such as [this one](https://www.freecodecamp.org/news/a-beginners-guide-to-terraform-infrastructure-as-code-in-practice/) and others that are more advanced.
