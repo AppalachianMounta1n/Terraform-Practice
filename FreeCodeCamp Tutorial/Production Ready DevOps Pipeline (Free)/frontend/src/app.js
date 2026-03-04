@@ -18,4 +18,16 @@ function App() {
         setUsers([...users, res.data]); //Update user list
         setName(''); //Clear input field
     };
+
+    return (
+        <div>
+            <h1>Users</h1>
+            {/* Input for new user name */}
+            <input value={name} onChange={e => setName(e.target.value)} />
+            {/* Button to add user */}
+            <button onClick={addUser}>Add User</button>
+            {/* List all users */}
+            <ul>{users.map(user => <li key={user.id}>{user.name}</li>)}</ul>
+        </div>
+    );
 }
