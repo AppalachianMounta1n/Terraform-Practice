@@ -16,6 +16,11 @@ provider "azurerm" {
 resource "azurerm_resource_group" "rg" {
   name     = "AzureResourceGroup1"
   location = "westus2"
+
+  tags = {
+    Environment = "Terraform Getting Started"
+    Team = "DevOps"
+  }
 }
 
 resource "azurerm_virtual_network" "vnet" {
