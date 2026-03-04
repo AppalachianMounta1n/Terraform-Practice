@@ -3,3 +3,9 @@ variable "container_name" {
     type = string
     default = "tutorial"
 }
+
+variable "docker_host" {
+    description = "Host for the Docker container(s)"
+    type = string
+    default = "npipe:////.//pipe//docker_engine"
+}
