@@ -23,3 +23,6 @@ app.post('/users/', async (req, res) => {
     const { rows } = await pool.query('INSERT INTO users(name) VALUES($1) RETURNING *', [name]);
     res.json(rows[0]); //Send new user as JSON
 });
+
+//Start the server on port 3000
+app.listen(3000, () => console.log('Backend running on port 3000'));
