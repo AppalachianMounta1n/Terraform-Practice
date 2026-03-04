@@ -1,3 +1,5 @@
+.vscode/
+
 #Terraform states, builds, and locks for Build
 /Docker/Build/terraform.tfstate
 /Docker/Build/.terraform.lock.hcl
