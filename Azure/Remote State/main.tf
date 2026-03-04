@@ -9,7 +9,7 @@ terraform {
   }
 
   cloud {
-    organization = var.hcp_org
+    organization = "Appalachian-Personal"
     workspaces {
         name = "learn-terraform-azure"
     }
@@ -21,8 +21,8 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = var.resource_group_name
-  location = var.region
+  name     = "AzureResourceGroup1"
+  location = "westus2"
 
   tags = {
     Environment = "Terraform Getting Started"
@@ -31,8 +31,8 @@ resource "azurerm_resource_group" "rg" {
 }
 
 resource "azurerm_virtual_network" "vnet" {
-  name                = var.vnet_name
+  name                = "AzureVnet"
   address_space       = ["10.0.0.0/16"]
-  location            = var.region
+  location            = "westus2"
   resource_group_name = azurerm_resource_group.rg.name
 }
