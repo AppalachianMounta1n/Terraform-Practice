@@ -1,11 +1,11 @@
 variable "resource_group_name" {
-    default = "AzureResourceGroup1"
+  default = "AzureResourceGroup1"
 }
 
 variable "vnet_name" {
-    default = "AzureVnet"
+  default = "AzureVnet"
 }
 
-variable region {
-    default = "westus2"
+variable "region" {
+  default = "westus2"
 }
