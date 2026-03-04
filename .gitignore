@@ -5,3 +5,5 @@
 **/terraform.tfstate.backup
 Oracle Cloud/**/variables.tf
 Azure/tenant-info.txt
+**/package-lock.json
+**/node_modules/*
